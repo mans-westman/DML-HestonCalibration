@@ -1,1 +1,1 @@
-Datasets can be shared upon request.
+Datasets can be shared on request.
