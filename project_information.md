@@ -5,7 +5,7 @@
 - **Title:** Neural Network Surrogates for Optimizing Heston Model Calibration: A Comparative Study on Design Choices for Deep Differential Pricing Surrogates.
 - **Authors:** Alex Andersson, Linnea Davidson, Markus Eliassen, Jacob Hansén, Isak Stridh, Måns Westman.
 - **Primary objective:** Test whether neural network surrogates can match the accuracy and stability of semi-analytical option pricing while running much faster, in the setting of Heston model calibration.
-- **Secondary objective:** Look at how design choices — output representation in particular — affect pricing accuracy, speed, and derivative stability, relative to standard (non-differential) networks and the COS method.
+- **Secondary objective:** Look at how design choices, output representation in particular, affect pricing accuracy, speed, and derivative stability, relative to standard (non-differential) networks and the COS method.
 
 ---
 
@@ -13,7 +13,7 @@
 
 Calibrating a stochastic volatility model like Heston means finding the parameters that let the model reproduce observed market option prices.
 
-Because Heston has a stochastic variance component, there's no closed-form solution for option prices in the price domain. Calibration therefore leans on numerical methods — the Fourier-based COS method here — to evaluate the semi-analytical pricing formula across thousands of strikes and maturities. That is slow and expensive. In settings that need speed, such as real-time risk management and high-frequency trading, it becomes a genuine bottleneck, which is what motivates building a fast surrogate.
+Because Heston has a stochastic variance component, there's no closed-form solution for option prices in the price domain. Calibration therefore leans on numerical methods, the Fourier-based COS method here, to evaluate the semi-analytical pricing formula across thousands of strikes and maturities. That is slow and expensive. In settings that need speed, such as real-time risk management and high-frequency trading, it becomes a genuine bottleneck, which is what motivates building a fast surrogate.
 
 ---
 
