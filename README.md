@@ -123,7 +123,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e .          # installs the heston_project package
 ```
 
-Then work through the notebooks in order — `1_data_generation` → `2_model_training` → `3_evaluation`. The pretrained checkpoints in `src/heston_project/models/saved/` let you reproduce the evaluation in `notebooks/3_evaluation/final_eval.ipynb` without retraining. The synthetic datasets are large and are available on request (see [`data/info.md`](data/info.md)).
+Then work through the notebooks in order — `1_data_generation` → `2_model_training` → `3_evaluation`. The pretrained checkpoints in `src/heston_project/models/saved/` let you reproduce the evaluation in `notebooks/3_evaluation/final_eval.ipynb` without retraining. The synthetic datasets are large and are available on request.
 
 ## Tech stack
 
