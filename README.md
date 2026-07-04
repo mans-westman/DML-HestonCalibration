@@ -11,6 +11,8 @@ Deep Differential Networks as fast, arbitrage-free surrogates for semi-analytica
 
 ---
 
+**Full Paper:** [`project_information.md`](project_information.md).
+
 ## TL;DR
 
 Calibrating the Heston stochastic-volatility model to market data is an expensive inverse problem. You end up pricing thousands of options across strikes and maturities, over and over, with no closed-form price to fall back on. The Fourier-based COS method is the standard semi-analytical tool for this, but it's slow, and its derivatives get numerically shaky in the tails — which is not optimal, since that's exactly where a gradient-based calibrator relies on them.
