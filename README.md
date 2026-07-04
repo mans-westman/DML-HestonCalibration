@@ -76,7 +76,7 @@ Everything below is measured on a held-out test set, against COS with N = 512 ex
 ### Seeing the difference
 
 <p align="center">
-  <img src="assets/iv_surface_cos_short.png" width="47.543%" alt="Implied-volatility surface recovered from COS prices at short maturities, showing numerical blow-up" />
+  <img src="assets/iv_surface_cos_short.png" width="47.553%" alt="Implied-volatility surface recovered from COS prices at short maturities, showing numerical blow-up" />
   <img src="assets/iv_surface_ddn_short.png" width="49%" alt="Smooth, bounded implied-volatility surface produced by the DDN_IV surrogate" />
 </p>
 
