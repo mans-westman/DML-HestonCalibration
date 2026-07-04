@@ -11,7 +11,9 @@ Deep Differential Networks as fast, arbitrage-free surrogates for semi-analytica
 
 ---
 
-**Full Paper:** [`project_information.md`](project_information.md).
+### Full Paper: 
+
+[`DML_Heston_full_paper.pdf`](DML_Heston_full_paper.pdf).
 
 ## TL;DR
 
